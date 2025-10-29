@@ -1,4 +1,5 @@
-"Cloud Documentation
-This repository contains my day-by-day learning and practice documentation for cloud concepts, including AWS, IAM, EC2, S3, and more.
-Each folder (Day 1, Day 2, etc.) includes step-by-step explanations and screenshots of the process.
-"
+
+
+# cloud-documetation
+This documentation is about cloud learning journey.This documentation includes all details about cloud practices,concepts,learnings etc.This repository contains day-to-day learnings of cloud.
+>>>>>>> 338f619 (update the day1-root-and-iam and README)
