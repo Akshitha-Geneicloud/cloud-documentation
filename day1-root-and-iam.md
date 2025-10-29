@@ -1,61 +1,92 @@
-1. What is Cloud Computing?
-    -Basic Definition
+1. **Cloud Computing**<br>
+-Basic Definition:<br>
+Cloud computing is the on-demand delivery of computing services — like servers, storage, databases, networking, software, analytics, and more — over the internet (“the cloud”) instead of using your local computer or physical servers.<br>
 
-Cloud computing is the on-demand delivery of computing services — like servers, storage, databases, networking, software, analytics, and more — over the internet (“the cloud”) instead of using your local computer or physical servers.
+-Simple Example:<br>
 
--Simple Example
+Before cloud-<br>
 
-Before cloud:
+You needed to buy physical servers, install operating systems, manage hardware, and maintain everything yourself.<br>
 
-You needed to buy physical servers, install operating systems, manage hardware, and maintain everything yourself.
+With cloud-<br>
 
-With cloud:
+You can rent these resources from a cloud provider (like AWS, Azure, or Google Cloud) and use them anytime, from anywhere.<br>
 
-You can rent these resources from a cloud provider (like AWS, Azure, or Google Cloud) and use them anytime, from anywhere.
+2. **Root User**<br>
+-Definition<br>
+The root user is the original account created when you first sign up for any cloud platform. It has full, unrestricted access to all resources and services in your cloud account.<br>
+-Important Characteristics <br>
 
-2. AWS Root User
-    -Definition
+Created using your email ID and password during sign-up.<br>
 
-The root user is the original account created when you first sign up for AWS. It has full, unrestricted access to all resources and services in your AWS account.
+Has complete administrative access — can delete resources, close the account, or change billing information.<br>
 
-    -Important Characteristics
+Should NOT be used for daily tasks.<br>
 
-Created using your email ID and password during sign-up.
+cloud platforms like AWS recommends using it only once — to create an IAM admin user.<br>
 
-Has complete administrative access — can delete resources, close the account, or change billing information.
+-Security Best Practices for Root User
 
-Should NOT be used for daily tasks.
+Enable MFA (Multi-Factor Authentication) for added protection.<br>
 
-AWS recommends using it only once — to create an IAM admin user.
+Do not share root credentials with anyone.<br>
 
-    -Security Best Practices for Root User
+Use strong, unique password.<br>
 
-Enable MFA (Multi-Factor Authentication) for added protection.
+Store root credentials securely (preferably offline).<br>
 
-Do not share root credentials with anyone.
+Use IAM users/roles for all other activities.<br>
 
-Use strong, unique password.
+3. **IAM (Identity and Access Management) User**<br>
+-Definition<br>
 
-Store root credentials securely (preferably offline).
+IAM is a service that helps you securely manage access to cloud resources.
+It lets you create users, groups, and roles and control who can access what in your cloud account.<br>
 
-Use IAM users/roles for all other activities.
+-IAM User:<br>
 
-3. IAM (Identity and Access Management) User
-    -Definition
+An IAM user is a person or application that has specific permissions to use cloud services.<br>
 
-IAM is a service that helps you securely manage access to AWS resources.
-It lets you create users, groups, and roles and control who can access what in your AWS account.
+-Example:<br>
 
-    -IAM User
+You can create-<br>
 
-An IAM user is a person or application that has specific permissions to use AWS services.
+admin-user (full access)<br>
 
-Example:
+developer-user (EC2 and S3 access)<br>
 
-You can create:
+billing-user (view billing only)<br>
 
-admin-user (full access)
+4.**Roles**<br>
 
-developer-user (EC2 and S3 access)
+A role defines what actions a user or service can perform.<br>
 
-billing-user (view billing only)
+It gives permissions to perform specific tasks like creating, deleting, or viewing resources.
+
+Roles help assign the right level of access to the right person or service.
+
+-Example:<br>
+
+Admin Role: Full access to all resources.<br>
+
+Developer Role: Can create and modify resources but cannot delete critical ones.<br>
+
+Viewer Role: Can only view resources, not change anything.<br>
+
+5.**Policies**<br>
+
+A policy is a set of rules that decides what actions are allowed or denied for a role or user.<br>
+
+It defines permissions in detail (like read, write, delete).<br>
+
+Policies are attached to roles to control access.<br>
+
+-Example:<br>
+
+A policy can allow:<br>
+
+Viewing storage buckets<br>
+
+Creating virtual machines<br>
+
+Denying deletion of databases<br>
