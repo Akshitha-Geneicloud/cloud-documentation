@@ -11,12 +11,12 @@ Amazon S3 is a "Simple Storage Service" in *AWS* that stores files of different 
 
 - Amazon S3 provides several **storage classes**, each designed to meet different data storage needs in terms of cost, performance, and access frequency.
   -   ****Standard:**** Suitable for frequently accessed data, that needs to be highly available and durable.
-    - ****Example:****
+        - ****Example:****
               You have a website that shows photos and videos to users every day.
               These files are opened very often, so you keep them in S3 Standard for fast access.
               Used for: Daily used files like photos, videos, app data, or documents.
   -    ****Standard Infrequent Access (Standard IA):**** This is a cheaper data-storage class and as the name suggests, this class is best suited for storing infrequently accessed data like log files or data archives. 
-      - ****Example:****
+        - ****Example:****
           You store monthly sales reports.
           You only open them once or twice a month, but they are still important.
           So, you keep them in Standard-IA — it’s cheaper than Standard but still safe.
