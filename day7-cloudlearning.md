@@ -68,7 +68,7 @@ It provides logs and metrics via CloudWatch and access logs, allowing you to ana
 
 **13. Summary:**  
 CloudFront improves website performance, security, and scalability by caching and delivering data from global edge locations close to users.
-![cloud front Architecture]("C:\Users\akshi\OneDrive\Documents\cloudfront.drawio.png" "AWS Cloudfront Architecture")
+![alt text](image.png)
 
 
  
