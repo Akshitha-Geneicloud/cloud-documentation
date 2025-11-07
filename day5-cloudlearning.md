@@ -39,18 +39,18 @@ Amazon S3 is a "Simple Storage Service" in *AWS* that stores files of different 
         Even if one image is lost, you can re-upload it.
         So you use RRS (though AWS doesn’t recommend it anymore).
         Used for: Test files, cached images, or temporary data.
-  -   ****Glacier Instant Retrieval:****Glacier Instant Retrieval is used for storing archived data that is rarely accessed, but when you do need it, you want to get it immediately (within seconds). It’s cheaper than Standard-IA but still gives instant access.
+  -    ****Glacier Instant Retrieval:****Glacier Instant Retrieval is used for storing archived data that is rarely accessed, but when you do need it, you want to get it immediately (within seconds). It’s cheaper than Standard-IA but still gives instant access.
        - ****Example****: You store medical reports or old invoices that you may only check a few times a year but must retrieve instantly when needed.Used for: Archival data that must be available immediately when accessed.
- -    ****Glacier Flexible Retrieval (formerly S3 Glacier):****This class is for long-term data storage that is very rarely accessed and where it’s fine to wait a few minutes or hours to get your data. It’s much cheaper than Standard and Standard-IA.
-      - ****Example****: 
+ -     ****Glacier Flexible Retrieval (formerly S3 Glacier):****This class is for long-term data storage that is very rarely accessed and where it’s fine to wait a few minutes or hours to get your data. It’s much cheaper than Standard and Standard-IA.
+       - ****Example****: 
       Monthly or yearly database backups that you store just for safety and don’t need quick access to.
        Used for: Long-term backups or archives where slow retrieval is acceptable.
- -    ****Glacier Deep Archive:****Glacier Deep Archive is the cheapest S3 storage class for data that is almost never accessed, like files kept for regulatory or compliance reasons. Retrieving data can take several hours.
-      - ****Example****: 
+ -     ****Glacier Deep Archive:****Glacier Deep Archive is the cheapest S3 storage class for data that is almost never accessed, like files kept for regulatory or compliance reasons. Retrieving data can take several hours.
+       - ****Example****: 
       Government or financial records that you must keep for 7–10 years but will likely never open again.
        Used for: Data that must be retained for long periods but is rarely accessed.
- -    ****S3 Express One Zone:****S3 Express One Zone is designed for high-performance applications that need very fast data access (microseconds) and are located in a single Availability Zone. It’s ideal for workloads that need quick read/write operations.
-      - ****Example****:
+ -     ****S3 Express One Zone:****S3 Express One Zone is designed for high-performance applications that need very fast data access (microseconds) and are located in a single Availability Zone. It’s ideal for workloads that need quick read/write operations.
+       - ****Example****:
        Machine learning or real-time analytics applications that continuously read and write data at high speed.
        Used for: High-speed data processing and AI/ML workloads requiring ultra-low latency.
 
