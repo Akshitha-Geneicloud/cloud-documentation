@@ -183,6 +183,7 @@ Route 53 distributes traffic based on weights:
     
 
 		You can adjust weights anytime (e.g., slowly shift to 100% new version).
+		![Route53 Diagram](c:\Users\akshi\cloud-day1\cloudfront.drawio.png"AWS Route53 Architecture")
  
 
 
