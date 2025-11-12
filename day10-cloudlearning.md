@@ -82,30 +82,23 @@ _Example:_ Lambda cold starts can cause 100–300 ms delay before execution begi
 1.  **CloudWatch Logs:**
     
    -  Amazon CloudWatch Logs collect and store log data from your AWS resources, applications, and services — like EC2, Lambda, RDS, or API Gateway.
-
-	- They help you monitor, search, and analyze what’s happening inside your system in real time.
+  - They help you monitor, search, and analyze what’s happening inside your system in real time.
         
 2.  **ELB (Load Balancer) Access Logs:**
     
    -   These logs record every request passing through the load balancer.
-        
-    -   They include request time and backend processing time, helping us find where delays occur.
+   -   They include request time and backend processing time, helping us find where delays occur.
         
 3.  **VPC Flow Logs**
     
-   -   VPC Flow Logs capture information about the network traffic going to and from your AWS resources (like EC2 instances, subnets, or the whole VPC).
-
-	- They don’t record actual data — just metadata like source, destination, ports, and time taken.        
-	-    See how long packets take to travel between resources.
-    
--   Check for dropped packets or failed connections (which increase latency).
-    
--   Identify slow network paths or high traffic load.
+    -   VPC Flow Logs capture information about the network traffic going to and from your AWS resources (like EC2 instances, subnets, or the whole VPC).
+    -  They don’t record actual data — just metadata like source, destination, ports, and time taken.        
+    -    See how long packets take to travel between resources.
+    -   Check for dropped packets or failed connections (which increase latency).
+    -   Identify slow network paths or high traffic load.
 4.  **Application Logs:**
-    
-- Application logging means recording important events or actions that happen inside our application — like when a user sends a request, when your code starts processing it, and when it finishes.
-
-- It helps us find where delays (latency) are happening in our app.
+    - Application logging means recording important events or actions that happen inside our application — like when a user sends a request, when your code starts processing it, and when it finishes.
+	- It helps us find where delays (latency) are happening in our app.
 ## Scenario Based Example:
 - I am a user who is trying to access a application say "amazon.com".
 - I experience delay(latency) in accessing the application.
