@@ -1,8 +1,9 @@
-﻿# TASK
-Latency.
-How to identify latency in AWS.
-Scenario Based on latency.
-SQS,SNS.
+# LATENCY
+## OVERVIEW:
+- What is Latency?
+- How to identify latency in AWS?
+- Scenarios Based on latency
+- SQS and SNS in AWS
 
 
 
