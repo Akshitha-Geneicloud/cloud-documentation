@@ -308,6 +308,7 @@ When your infrastructure is on Azure
 When you want simple, low-cost Kubernetes
 
 When you are new to Kubernetes
+
 <img width="596" height="502" alt="Screen-Shot-2020-03-18-at-12 07 32-PM" src="https://github.com/user-attachments/assets/a8b09466-6175-429e-a207-8f7ec8bf083e" />
 
 3. Amazon Elastic Kubernetes Service (EKS)
