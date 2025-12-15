@@ -1,7 +1,7 @@
 
 
 # Cloud Documentation
-##Overview
+## Overview
 
 As part of my Cloud and DevOps internship, I have been continuously learning and practicing foundational to intermediate concepts across software development, cloud computing, containerization, CI/CD, and Kubernetes.
 To consolidate this learning and ensure long-term retention, I am documenting everything I have learned in a clear, structured, and beginner-friendly manner.
