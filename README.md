@@ -8,8 +8,8 @@ To consolidate this learning and ensure long-term retention, I am documenting ev
 
 This documentation reflects my hands-on learning journey, not just theoretical understanding.
 
-What I Have Learned So Far
-1. Linux & System Fundamentals
+### What I Have Learned So Far
+## 1. Linux & System Fundamentals
 
 Linux file system and commands
 
@@ -21,7 +21,7 @@ Working with public and private servers
 
 These concepts form the base for working with cloud servers and DevOps tools.
 
-2. Version Control with Git & GitHub
+## 2. Version Control with Git & GitHub
 
 Git basics (clone, commit, push, pull, branch)
 
@@ -31,7 +31,7 @@ Using Git for CI/CD pipelines
 
 This enables structured code management and collaboration.
 
-3. Cloud Computing Fundamentals
+## 3. Cloud Computing Fundamentals
 
 What cloud computing is and why it is used
 
@@ -43,7 +43,7 @@ Cloud service models (IaaS, PaaS, SaaS)
 
 This helped me understand how applications run on cloud platforms.
 
-4. AWS Core Services
+## 4. AWS Core Services
 
 EC2 instance creation and management
 
@@ -55,7 +55,7 @@ Basic networking concepts
 
 This provided real-world exposure to cloud infrastructure.
 
-5. Containerization with Docker
+## 5. Containerization with Docker
 
 What containers are and why they are used
 
@@ -67,7 +67,7 @@ Dockerizing frontend and backend applications
 
 Docker helped me understand how applications are packaged consistently.
 
-6. CI/CD Pipelines
+## 6. CI/CD Pipelines
 
 Concept of Continuous Integration and Deployment
 
@@ -79,7 +79,7 @@ Integrating Docker into CI/CD pipelines
 
 This showed how modern applications are deployed automatically.
 
-7. Kubernetes Fundamentals
+## 7. Kubernetes Fundamentals
 
 Kubernetes architecture and components
 
@@ -93,7 +93,7 @@ Understanding managed Kubernetes platforms (AKS, EKS, GKE)
 
 Kubernetes helped me understand production-grade orchestration.
 
-8. DevOps Concepts
+## 8. DevOps Concepts
 
 Microservices architecture
 
@@ -107,7 +107,7 @@ DevOps best practices
 
 These concepts connect development and operations efficiently.
 
-Why I Am Creating This Documentation
+## Why I Am Creating This Documentation
 
 This documentation is created to:
 
@@ -123,7 +123,7 @@ Demonstrate structured learning during my internship
 
 It also reflects my ability to document, explain, and apply technical concepts.
 
-Concepts Yet to Be Learned (Next Phase of My Journey)
+## Concepts Yet to Be Learned (Next Phase of My Journey)
 Cloud & Infrastructure
 
 AWS VPC deep dive
@@ -172,7 +172,7 @@ Container image scanning
 
 Cost optimization (FinOps)
 
-Learning Goal
+## Learning Goal
 
 My goal is to become a Cloud and DevOps Engineer with strong hands-on experience in:
 
@@ -184,4 +184,4 @@ Container orchestration
 
 Scalable and secure system design
 
-This documentation represents my learning progress, discipline, and readiness to grow further in this field.
+### This documentation represents my learning progress, discipline, and readiness to grow further in this field.
