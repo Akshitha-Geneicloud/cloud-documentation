@@ -309,8 +309,6 @@ When you want simple, low-cost Kubernetes
 
 When you are new to Kubernetes
 
-<img width="596" height="502" alt="Screen-Shot-2020-03-18-at-12 07 32-PM" src="https://github.com/user-attachments/assets/a8b09466-6175-429e-a207-8f7ec8bf083e" />
-
 3. Amazon Elastic Kubernetes Service (EKS)
 What is EKS?
 
@@ -347,7 +345,6 @@ When using AWS cloud services
 When you need high security & compliance
 
 When building large-scale production systems
-<img width="1136" height="867" alt="1_s5NYOU2VDbu9YYU1OTI6Iw" src="https://github.com/user-attachments/assets/aec0345a-d57a-4f4d-9429-0bb500c7e442" />
 
 4. Google Kubernetes Engine (GKE)
 What is GKE?
@@ -381,8 +378,6 @@ When Kubernetes is your core platform
 When you want maximum automation
 
 When you want minimal operational effort
-<img width="819" height="499" alt="image1-8" src="https://github.com/user-attachments/assets/dfc5aa69-51aa-4e1b-89ab-cdb29fc43bf2" />
-
 ### 3.Self-Managed Clusters
 
 * kubeadm
