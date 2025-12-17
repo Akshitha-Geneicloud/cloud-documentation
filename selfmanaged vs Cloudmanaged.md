@@ -281,61 +281,15 @@ GKE is Google Cloud’s managed Kubernetes service.
 
 ## 8. Comparison: EKS vs AKS vs GKE
 
-Feature
+| Feature | EKS (AWS) | AKS (Azure) | GKE (GCP) |
+|--------|-----------|-------------|-----------|
+| Provider | Amazon Web Services | Microsoft Azure | Google Cloud |
+| Control Plane | Fully Managed | Fully Managed | Fully Managed |
+| Ease of Use | Medium | Easy | Easy |
+| Networking | Complex | Moderate | Simple |
+| Cost | Higher | Moderate | Moderate |
+| Best Use Case | AWS workloads | Azure workloads | Cloud-native apps |
 
-EKS (AWS)
-
-AKS (Azure)
-
-GKE (GCP)
-
-Provider
-
-Amazon Web Services
-
-Microsoft Azure
-
-Google Cloud
-
-Control Plane
-
-Fully Managed
-
-Fully Managed
-
-Fully Managed
-
-Ease of Use
-
-Medium
-
-Easy
-
-Easy
-
-Networking
-
-Complex
-
-Moderate
-
-Simple
-
-Cost
-
-Higher
-
-Moderate
-
-Moderate
-
-Best Use Case
-
-AWS workloads
-
-Azure workloads
-
-Cloud-native apps
 
 ----------
 
@@ -391,3 +345,9 @@ They are essential for modern DevOps and cloud-native application development.
 ## 12. Conclusion
 
 Kubernetes clusters form the foundation of container orchestration. Cloud-managed Kubernetes services like EKS, AKS, and GKE simplify cluster management by offloading control plane responsibilities to cloud providers. Understanding these platforms is crucial for building scalable, secure, and production-ready applications in today’s cloud environments.
+
+## Architecture
+
+(https://www.cncf.io/wp-content/uploads/2020/09/Kubernetes-architecture-diagram-1-1-1024x698.png)
+
+-----------
