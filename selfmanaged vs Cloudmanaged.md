@@ -348,6 +348,6 @@ Kubernetes clusters form the foundation of container orchestration. Cloud-manage
 
 ## Architecture
 
-(https://www.cncf.io/wp-content/uploads/2020/09/Kubernetes-architecture-diagram-1-1-1024x698.png)
+<img width="1024" height="698" alt="Kubernetes-architecture-diagram-1-1-1024x698" src="https://github.com/user-attachments/assets/8ec3603d-e6ba-4b8b-ad77-26488680399c" />
 
 -----------
