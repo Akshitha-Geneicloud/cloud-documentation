@@ -259,8 +259,8 @@ Creates a tunnel
 Opens the app in the browser automatically
 
 ---
-This the command used to access the web Application:
+# This the command used to access the web Application:
 <img width="1920" height="1128" alt="Screenshot 2025-12-22 150745" src="https://github.com/user-attachments/assets/6a2f5403-2944-4963-b3fe-a4cfb5e6574d" />
 
-##This is the web application
+# This is the web application
 <img width="1920" height="1128" alt="Screenshot 2025-12-22 150754" src="https://github.com/user-attachments/assets/4ad403e1-8e4e-4d67-8048-c6b83b0cac31" />
