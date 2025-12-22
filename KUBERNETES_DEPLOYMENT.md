@@ -236,16 +236,18 @@ kubectl get hpa
 ---
 
 11. Enabling Metrics Server (Required for Autoscaling)
-minikube addons enable metrics-server
+```minikube addons enable metrics-server```
 
 
 This enables CPU metrics collection for HPA.
+
+---
 
 12. Accessing the Application
 
 The application was accessed using:
 
-minikube service ecocycle-service
+```minikube service ecocycle-service```
 
 
 This command:
